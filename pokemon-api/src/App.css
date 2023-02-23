@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+h1 {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(133, 8, 124);
+    flex-direction: column;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h4 {
+    color: rgb(9, 9, 106);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 200px;
+    align-items: right;
+    text-indent: 50px;
+}
+
+.poke-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#poke-name-on-main-page {
+    margin-left: 70px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+#pokemon-details {
+    text-transform: capitalize;
+}
