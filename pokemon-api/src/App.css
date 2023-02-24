@@ -44,3 +44,7 @@ h4 {
 #pokemon-details {
     text-transform: capitalize;
 }
+
+#back-link {
+    margin-left: 70px;
+}

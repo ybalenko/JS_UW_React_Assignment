@@ -1,7 +1,7 @@
 import './App.css';
 import Pokemons from './Pokemons';
 import PokemonName from './Pokemon'
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 const Home = () => (
     <div>
@@ -9,7 +9,6 @@ const Home = () => (
         <Pokemons />
     </div>
 );
-
 
 
 function App() {

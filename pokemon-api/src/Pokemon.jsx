@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 export default function PokemonName() {
@@ -20,6 +20,8 @@ export default function PokemonName() {
         <div>
             <h1>Pokémon data</h1>
             <RenderPokemon pokeProfile={pokeName} />
+            <span id='back-link'>
+                <Link to="/">Back</Link></span>
         </div>
     )
 }
