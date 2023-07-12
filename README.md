@@ -11,7 +11,7 @@ For this UI, an app has two views:
 
 [<img src="homepage.png" width="200" />](homepage.png)
 
-* A character details page displays a specific character's information: a name, an image returned from the API and a height. Images I 
+* A character details page displays a specific character's information: a name, an image returned from the API and a height. I am using images from https://pokemondb.net/ resource. 
 
 [<img src="detailspage.png" width="200" />](detailspage.png)
 
